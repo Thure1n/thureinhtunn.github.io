@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#home{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+    background-color: rgba(0,0,0,0.6)!important;
+}
+#home .caption{
+	position: absolute;
+	top:50%;
+	left: 5%;
+}
+.caption h1{
+	font-size: 2rem;
+	font-weight:  500;
+    color: #fff;
+    letter-spacing: normal;
+    text-transform: uppercase;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 0.5rem;
+}
+p.me{
+    font-size: 1rem;
+    color: #fff;
+}
+.btn-md{
+	border-width: medium;
+	border-radius: 0;
+	font-size: 1rem;
+}
+.home{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+/* About Me Area */
+#about_me{
+    width: 100%;
+    height: auto;
+}
+#about_me img{
+    height: 420px;
+}
+#about_me h1{
+    text-transform: unset;
+    color: grey;
+    overflow: hidden;
+}
+#about_me h6{
+    text-transform: unset;
+    color: #000;
+    overflow: hidden;
+    
+}
+.heading-underline{
+    width:5rem;
+    height: .2rem;
+    background-color:grey;
+	margin: 0 auto 2rem;
+}
+/* Contact Area */
+#contact{
+    width: 100%;
+    height: auto;
+}
+#contact h1{
+    text-transform: unset;
+    color: grey;
+    overflow: hidden;
+}
+#contact h2{
+    text-transform: unset;
+    letter-spacing: unset;
+    overflow: hidden;
+}
+#contact h4{
+    text-transform: unset;
+    letter-spacing: unset;
+    overflow: hidden;
+}
+
+/* footer area */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    color: white;
+}
+footer a{
+    color: #fff;
+    padding: 0 10px 0 10px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+footer .social-links{
+    margin: 2rem 0 2rem;
+
+}
+@media only screen  and (max-width:600px)
+{   
+    .caption{
+        position: absolute;
+        top:40%!important;
+        left: 5%;
+    }
+    .caption h1{
+        font-size: 1.5rem;
+        font-weight:  500;
+        color: #fff;
+        letter-spacing: normal;
+        text-transform: uppercase;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 0.5rem;
+    }
+    p.me{
+        font-size: 0. 7rem;
+        color: #fff;
+    }
+    .btn-md{
+        border-width: medium;
+        border-radius: 0;
+        font-size: 1rem;
+    }
+}
